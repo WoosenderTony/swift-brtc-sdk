@@ -17,7 +17,7 @@ let package = Package(
         ),
         .target(
             name: "BandwidthRTC",
-            dependencies: [.product(name: "WebRTC", package: "WebRTC")],
+            dependencies: [.product(name: "BandwidthWebRTC", package: "BandwidthWebRTC")],
             plugins: ["GenerateSDKVersion"]
         ),
         .testTarget(
